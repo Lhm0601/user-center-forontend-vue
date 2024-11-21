@@ -8,6 +8,21 @@ const routes: Array<RouteRecordRaw> = [
     component: HomeView,
   },
   {
+    path: "/user/login",
+    name: "userLogin",
+    component: HomeView,
+  },
+  {
+    path: "/user/register",
+    name: "userRegister",
+    component: HomeView,
+  },
+  {
+    path: "/admin/userManage",
+    name: "adminUserManage",
+    component: HomeView,
+  },
+  {
     path: "/about",
     name: "about",
     // route level code-splitting
